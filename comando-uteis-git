@@ -1,0 +1,38 @@
+[core]
+    editor = 'C:\\Program Files\\Sublime Text 3\\sublime_text.exe' -w    
+[user]
+	name = <name>
+	email = <email>
+[alias]
+    ck = checkout
+    ckb = checkout -b
+    ckm = checkout master
+    ps = push
+    psf = push -f
+    psd = push --delete
+    br = branch
+    cm = commit
+    cmm = commit -m 
+    st = status
+    brd = branch -d
+    brD = branch -D
+    p = pull
+    rb = rebase
+    rbm = rebase master
+    rbi = rebase -i
+    rbc = rebase --continue
+    rba = rebase --abort
+    rbs = rebase --skip
+    mt = mergetool
+    cl = clean
+    cldf = clean -df
+    ft = fetch
+    sh = stash
+    cp = cherry-pick
+    lg = log --pretty=oneline
+
+[difftool "sourcetree"]
+	cmd = '' \"$LOCAL\" \"$REMOTE\"
+[mergetool "sourcetree"]
+	cmd = "'' "
+	trustExitCode = true
